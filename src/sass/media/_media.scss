@@ -1,0 +1,49 @@
+@media (max-width: 991px) {
+    .promo {
+        &__wrapper {
+            display: flex;
+            align-items: center;
+        }
+        &__header {
+            font-size: 30px;
+        }
+        &__subheader {
+            font-size: 13px;
+        }
+    }
+    .advantages {
+        &__descr{
+            width: auto;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .header {
+        &__loho{
+            img {
+                width: 80%;
+                margin-left: 10px;
+            }
+        }
+        &__contacts {
+            margin-right: 10px;
+        }
+    }
+}
+@media (max-width: 575px){
+    .header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        &__official {
+            padding: 30px;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+}
